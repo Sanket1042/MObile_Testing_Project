@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Mobile_testing.Chrome_Automater">
+      <class name="Mobile_testing.Mobile_capability">
         <methods>
-          <include name="m1"/>
-          <include name="setup"/>
+          <include name="calculted"/>
         </methods>
-      </class> <!-- Mobile_testing.Chrome_Automater -->
+      </class> <!-- Mobile_testing.Mobile_capability -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
